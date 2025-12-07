@@ -1,0 +1,356 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
+.hello-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(247, 0, 255);
+  padding: 20px 40px;
+  font-size: 45px;
+  position: absolute;
+  top: 48%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  z-index: 10; 
+}
+
+.vide1{position: fixed; top: 0%; left: 0%; width: 100%; height: 100%; object-fit: cover; z-index: -10;}
+
+
+
+.mochi1, .mochi2, .mochi3, .mochi4, .mochi5 {
+  position: absolute;
+}
+
+.mochi1 { top: 4%; right: 5%; height: 151px; width: 151px; }
+.mochi2 { bottom: 4%; right: 5%; height: 151px; width: 151px; }
+.mochi3 { top: 4%; left: 4%; height: 151px; width: 151px; }
+.mochi4 { bottom: 4%; left: 4%; height: 151px; width: 151px; }
+.mochi5 { top: 40%; left: 44%; height: 299px; width: 299px; }
+
+.line1 { display: inline-block; 
+  padding: 20px 40px; 
+  font-size: 40px; 
+   transform: translate(-50%, -50%);
+  z-index: 10;
+  position: absolute;
+  text-align: center;
+  color: darkmagenta;
+  top: 43%;
+  left: 52%;
+  text-decoration: none;
+}
+
+.line2 { display: inline-block; 
+  padding: 20px 40px; 
+  font-size: 40px; 
+   transform: translate(-50%, -50%);
+  z-index: 10;
+  position: absolute;
+  text-align: center;
+  color: darkmagenta;
+  top: 46.5%;
+  left: 52%;
+  text-decoration: none;
+}
+
+.alt{position:absolute;top: 38%; left: 41%; }
+
+.line3 { display: inline-block; 
+  padding: 20px 40px; 
+  font-size: 40px; 
+   transform: translate(-50%, -50%);
+  z-index: 10;
+  position: absolute;
+  text-align: center;
+  color: darkmagenta;
+  top: 49.9%;
+  left: 51.3%;
+  text-decoration: none;
+}
+
+.line4 { display: inline-block; 
+  padding: 20px 40px; 
+  font-size: 40px; 
+   transform: translate(-50%, -50%);
+  z-index: 10;
+  position: absolute;
+  text-align: center;
+  color: darkmagenta;
+  top: 54%;
+  left: 52%;
+  text-decoration: none;
+}
+
+.alt1{position:absolute;top: 29%; left: 35%; height: 65%; }
+
+
+.in{color: rgb(255, 0, 128); position: absolute; top: 30.1%; left: 48%; font-size: 35px; display: inline-block; text-decoration: none; }
+
+.down{color: rgb(255, 0, 128); position: absolute; top: 35%; left: 42%; font-size: 35px; display: inline-block; text-decoration: none; }
+
+.out{color: rgb(255, 0, 128); position: absolute; top: 40%; left: 43%; font-size: 35px; display: inline-block; text-decoration: none; }
+
+.up{color: rgb(255, 0, 128); position: absolute; top: 45%; left: 42%; font-size:35px; display: inline-block; text-decoration: none; }
+
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: pink;
+    display: flex;
+    justify-content: center;   /* Horizontal center */
+    align-items: center;       /* Vertical center */
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yes-btn, .no-btn {
+    padding: 12px 30px;
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.yes-btn {
+    background: red;
+    color: white;
+}
+
+.no-btn {
+    background: white;
+    border: 2px solid red;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 20px;
+    color: darkred;
+}
+
+
+
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+}
+
+.title {
+    color: #ff00aa; /* Pink */
+    font-size: 80px;
+    font-weight: 900;
+    margin: 0;
+    text-shadow: 
+        0 0 10px #ff00aa,
+        0 0 20px #ff00aa,
+        0 0 35px #ff00aa;
+}
+
+.subtitle {
+    color: #ffb3e6; /* Light soft pink */
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 15px;
+    text-shadow:
+        0 0 8px #ff00aa,
+        0 0 15px #ff00aa;
+}
+
+
+.text-container {
+    position: absolute;
+    top: 45%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: #ff00aa; /* Pink */
+    font-family: 'Poppins', sans-serif; }
+
+
+.text-container h1 {
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.text-container p {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.fanal {
+    position: absolute;
+    top: 52%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: #ff00aa; /* Pink */
+    font-family: 'Poppins', sans-serif; 
+
+
+ 
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 15px;
+
+
+
+    font-size: 40px;
+    font-weight: 600; }
+
+
+    html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: Arial, sans-serif;
+  background: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Responsive button */
+.hello-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(247, 0, 255);
+  padding: 2vh 4vw;
+  font-size: 4vw; /* scales with screen width */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; 
+}
+
+/* Background video */
+.vide1 {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  z-index: -10;
+}
+
+/* Example responsive container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yes-btn, .no-btn {
+  padding: 1em 2em;
+  font-size: 1rem;
+  margin: 0.5em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.yes-btn {
+  background: red;
+  color: white;
+}
+
+.no-btn {
+  background: white;
+  border: 2px solid red;
+}
+
+#message {
+  margin-top: 1em;
+  font-size: 1rem;
+  color: darkred;
+}
+
+/* Text container */
+.text-container {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90%;
+  color: #ff00aa;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-container h1 {
+  font-size: 8vw; /* scales with screen width */
+  font-weight: 800;
+  margin-bottom: 0.5em;
+}
+
+.text-container p {
+  font-size: 4vw;
+  font-weight: 600;
+}
+
+/* Responsive media queries */
+@media (max-width: 768px) {
+  .hello-btn {
+    font-size: 6vw;
+    padding: 3vh 6vw;
+  }
+
+  .text-container h1 {
+    font-size: 10vw;
+  }
+
+  .text-container p {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .hello-btn {
+    font-size: 8vw;
+    padding: 4vh 8vw;
+  }
+
+  .text-container h1 {
+    font-size: 12vw;
+  }
+
+  .text-container p {
+    font-size: 6vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+       
+   
+

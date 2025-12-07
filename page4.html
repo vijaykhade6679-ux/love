@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <img src="_๑_̀ㅂ_́_ﾉ___ʙᴇᴀʀ___ᴘᴀɴᴅᴀ__1_-removebg-preview.png" class="mochi1">
+    <img src="_๑_̀ㅂ_́_ﾉ___ʙᴇᴀʀ___ᴘᴀɴᴅᴀ__1_-removebg-preview.png" class="mochi2">
+    <img src="_๑_̀ㅂ_́_ﾉ___ʙᴇᴀʀ___ᴘᴀɴᴅᴀ__1_-removebg-preview.png" class="mochi3">
+    <img src="_๑_̀ㅂ_́_ﾉ___ʙᴇᴀʀ___ᴘᴀɴᴅᴀ__1_-removebg-preview.png" class="mochi4">
+    <video src="From KlickPin CF Heart and dotted line background videoハートと点線の動く背景【2025】 _ 動画 フリー フリー素材 Pc 壁紙 かわいい.mp4" autoplay loop muted class="vide1"></video>
+    
+    <div class="container">
+    <h1>Will you be mine? ❤️</h1>
+
+    <button class="yes-btn" onclick="goToPage5()">YES</button>
+    <button class="no-btn" onclick="handleNo()">NO</button>
+
+    <p id="message"></p>
+</div>
+
+<script>
+let noClickCount = 0;
+
+function goToPage5() {
+    window.location.href = "page5.html";  
+}
+
+function handleNo() {
+    noClickCount++;
+
+    if (noClickCount < 5) {
+        moveNoRandom();
+    } else {
+        document.querySelector('.no-btn').style.position = "static";
+        document.getElementById("message").innerHTML = 
+            "Okay… I understand 😔<br>Even if you said no, I will always respect your feelings.";
+    }
+}
+
+function moveNoRandom() {
+    const btn = document.querySelector('.no-btn');
+    btn.style.position = "absolute";
+    btn.style.top = (Math.random() * 80) + "%";
+    btn.style.left = (Math.random() * 80) + "%";
+}
+</script>
+
+    
+
+</body>
+</html>
